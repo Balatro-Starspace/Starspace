@@ -385,6 +385,16 @@ return {
           '{C:inactive}"The easiest enemy."'
         }
       },
+      j_star_freegels = {
+        name = "freegels",
+        text = {
+          "Prevents Death if Chips scored",
+          "are at least {C:attention}50%{} of required",
+          "Chips, recharges when a",
+          "{C:attention}Boss Blind{} is defeated",
+          '{C:inactive,S:0.9}"COME BACK HERE YOU LITTLE {C:star_freegels_pink,S:1.2}PINK{C:inactive,S:0.9}!!!"'
+        }
+      },
       j_star_scrap = {
         name = "Scrap",
         text = {
@@ -747,6 +757,9 @@ return {
       star_patches = "Patches",
       bacon_burger_eat = "Nomf...",
       combo_pizza_eat = "Nomf...",
+      star_active = "active",
+      star_inactive = "inactive",
+      ph_freegels = "Saved by freegels",
 
       star_ui_squad = "Core Team",
       star_ui_artists = "Artists",

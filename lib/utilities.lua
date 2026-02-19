@@ -102,7 +102,7 @@ STAR_UTIL.enabled_jokers = {
   --'its_a_seal',
   --'impostor',
 
-  --'freegels',
+  'freegels',
   --'weed',
   --'gay_ass_legendary',
   --'slash_and_die',
@@ -205,7 +205,8 @@ STAR_UTIL.enabled_vouchers = {
 STAR_UTIL.colors = {
   rose_gold = HEX("DA9592"),
   bronze = HEX("ED8F49"),
-  emerald = HEX("67CF83")
+  emerald = HEX("67CF83"),
+  freegels_pink = HEX("EB83D8")
 }
 loc_colour()
 for i, v in pairs(STAR_UTIL.colors) do
