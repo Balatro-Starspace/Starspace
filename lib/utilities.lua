@@ -48,30 +48,29 @@ STAR_UTIL.enabled_jokers = {
   --'ew_xchips',
   --'crazy_eights',
 
-  --'honest_joker',
+  'honest_joker', --FT 1
   'fluffy_joker',
   --'insane_joker',
   'lesbian_joker',
   'misaligned_joker',
-  'stormcloud', -- not the official placement but it's about right
 
   'edward_robinson', -- was not on here anywhere so i added it after misaligned like in the docs
   'ms_small_penny_rolls', -- same story
   'jimothy',
   'fridge',
 
-  --'loyal_joker',
+  'loyal_joker', --FT 2
   'shy_joker',
   --'rebellious_joker',
   --'jombo',
   --'junkyard',
 
-  'the_truth',
+  --'the_truth',
   'the_spacial',
   --'the_monarchy',
   --'antijoker',
   --'jimbo',
-
+  'truthful_joker', --FT 3
   'guileful_joker',
   'deceitful_joker',
   'thoughtful_joker',
@@ -83,7 +82,11 @@ STAR_UTIL.enabled_jokers = {
   --'slothful_joker',
   --'astrolabe',
   'rise_of_kingdoms',
-
+  'black_card', --FT 4
+  'extra_bullet', --FT 5
+  'azazel', --FT 6
+  'balatrue', --FT 7
+  'undertale2', --FT 8
   --'sappy',
   --'auzzy',
   --'paper_dragon',
@@ -95,24 +98,21 @@ STAR_UTIL.enabled_jokers = {
   --'plan_z',
   --'wee_ancient_joker',
   --'solar_system',
-  
-  --'black_card',
-  --'extra_bullet',
+
   --'andromeda',
   --'its_a_seal',
   --'impostor',
 
   --'freegels',
   --'weed',
-  --'gay_ass_legendary',
+  'gay_ass_legendary', --FT 9
   --'slash_and_die',
-
+  'badeline', -- FT 10
   --'joker?',
   --'heat_death',
   --'stoned_joker',
   --'astro_arbiter',
   'aikoyori',
-
   --'aven',
   'meta',
   'plus2',

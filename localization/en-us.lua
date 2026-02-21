@@ -66,12 +66,46 @@ return {
           "a {C:attention}Two Pair{}"
         }
       },
+      j_star_azazel = {
+        name = "Azazel",
+        text = {
+          "Gains {C:white,X:mult}X#2#{} Mult on {C:attention}final hand",
+          "{C:inactive}(Currently {C:white,X:mult}X#1#{C:inactive} Mult)"
+        }
+      },
       j_star_bacon_burger = {
         name = "Bacon Burger",
         text = {
           "{X:mult,C:white}X#2#{} Mult",
           "{X:chips,C:white}X#1#{} Chips",
           "Eaten after {C:attention}#3#{} hands"
+        }
+      },
+      j_star_badeline = {
+        name = "Badeline",
+        text = {
+          "Gains {C:white,X:mult}X#2#{} Mult per",
+          "played {C:hearts}Hearts{} card",
+          "{C:inactive}(Currently {C:white,X:mult}X#1#{C:inactive} Mult)"
+
+        }
+      },
+      j_star_balatrue = {
+        name = "Balatrue...",
+        text = {
+          "Prevents Death and levels up",
+          "all hands if chips scored",
+          "are at least {C:attention}33%",
+          "of required chips",
+          "{C:red}self destructs"
+        }
+      },
+      j_star_black_card = {
+        name = "Black Card",
+        text = {
+          "Gains {C:dark_edition}+#1# Joker slot{} every",
+          "{C:attention}#3#{} skipped Booster Packs",
+          "{C:inactive}(Max of {C:dark_edition}+5{}, currently {C:dark_edition}+#5#{} slots)"
         }
       },
       j_star_chronological_joker = {
@@ -147,6 +181,14 @@ return {
           "{C:inactive}(Currently {C:mult}+#2#{C:inactive} Mult)"
         }
       },
+      j_star_extra_bullet = {
+        name = "Extra Bullet",
+        text = {
+          "Scored {C:attention}7s{} reduce the",
+          "blind requirement by {C:attention}7%"
+
+        }
+      },
       j_star_fluffy_joker = {
         name = "Fluffy Joker",
         text = {
@@ -155,12 +197,12 @@ return {
           "a {C:attention}#2#{}"
         }
       },
-      j_star_stormcloud = {
-        name = "Stormcloud",
+      j_star_freegels = {
+        name = "freegels",
         text = {
-          "{C:white,X:chips}X#1#{} Chips if played",
-          "hand is the first",
-          "{C:attention}Flash{} of the round"
+          {"Prevents Death if {C:}chips{} scored are at least {C:attention}50%{} of required chips",
+          "Recharges when a {C:attention}Boss Blind{} is defeated"},
+          {"{C:red}COME BACK HERE YOU LITTLE{} {V:1,s:2}PINK"}
         }
       },
       j_star_fridge = {
@@ -187,6 +229,15 @@ return {
             "{C:attention}Lucky{} cards' probabilities",
             "are {C:attention}quadrupled{}"
           }
+        }
+      },
+      j_star_gay_ass_legendary = {
+        name = "Gay Ass Legendary",
+        text = {
+          "This Joker gains {C:white,X:chips}X#2#{} Chips if",
+          "played hand contains a {C:attention}Flash",
+          "{C:inactive}(Currently {C:white,X:chips}X#1#{C:inactive} Chips)"
+
         }
       },
       j_star_ghost = {
@@ -232,6 +283,14 @@ return {
           "was played this round"
         }
       },
+      j_star_honest_joker = {
+        name = "Honest Joker",
+        text = {
+          "{C:mult}+#1#{} Mult if",
+          "played hand is",
+          "a {C:attention}High Card{}"
+        }
+      },
       j_star_jimothy = {
         name = "Jimothy",
         text = {
@@ -251,6 +310,14 @@ return {
           "{C:attention}#1#{} or more {C:attention}Queens,", 
           "this Joker gives", 
           "{C:mult}+#2#{} Mult and {C:money}+$#3#{}"
+        }
+      },
+      j_star_loyal_joker = {
+        name = "Loyal Joker",
+        text = {
+          "{C:chips}+#1#{} Chips if",
+          "played hand is",
+          "a {C:attention}High Card{}"
         }
       },
       j_star_magolor = {
@@ -490,6 +557,25 @@ return {
           "a hand containing",
           "a {C:attention}#2#{}",
           "was played this round"
+        }
+      },
+      j_star_truthful_joker = {
+        name = "Truthful Joker",
+        text = {
+          "{C:attention}+#1#{} hand size if",
+          "a {C:attention}High Card{}",
+          "was played this round"
+        }
+      },
+      j_star_undertale2 = {
+        name = "Undertale 2",
+        text = {
+          "{X:mult,C:white}X#1#{} Mult",
+          "Increases or decreases",
+          "by a random amount",
+          "after hand is played",
+          "Cannot go below",
+          "{C:white,X:mult}X2{} or above {C:white,X:mult}X8"
         }
       },
       j_star_writh_wrath = {
