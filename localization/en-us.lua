@@ -525,6 +525,14 @@ return {
           "was played this round"
         }
       },
+      j_star_stormcloud = {
+        name = "Stormcloud",
+        text = {
+          "{C:white,X:chips}X#1#{} Chips if played",
+          "hand is the first",
+          "{C:attention}Flash{} of the round"
+        }
+      },
       j_star_susie = {
         name = "Susie",
         text = {

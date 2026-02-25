@@ -53,6 +53,7 @@ STAR_UTIL.enabled_jokers = {
   --'insane_joker',
   'lesbian_joker',
   'misaligned_joker',
+  'stormcloud', -- not the official placement but it's about right
 
   'edward_robinson', -- was not on here anywhere so i added it after misaligned like in the docs
   'ms_small_penny_rolls', -- same story
@@ -65,7 +66,7 @@ STAR_UTIL.enabled_jokers = {
   --'jombo',
   --'junkyard',
 
-  --'the_truth',
+  'the_truth',
   'the_spacial',
   --'the_monarchy',
   --'antijoker',
