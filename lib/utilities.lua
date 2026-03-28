@@ -1,212 +1,29 @@
 -- Joker table
 STAR_UTIL.enabled_jokers = {
-  'astro',
-  'scrap',
-  'sage',
-  'crystal',
-  'shard',
-
-  'astronomical_joker',
-  'chronological_joker',
-  'seraphic_joker',
-  'glorp',
-  'shilling',
-
-  'creature',
-  'scrap_machete',
-  'sage_halo',
-  'crystal_goggles',
-  'colon3c',
-
-  --'selfie',
-  --'flash_card',
-  --'lets_take_a_look',
-  --'meet_n_fuck_kingdom',
-  --'limited_time_astro_curry',
-
-  'rocket_pop',
-  'combo_pizza',
-  'bacon_burger',
-  'grapefruit_soda',
-  --'jam_jar'
-
-  'magolor',
-  'meta_knight',
-  'galacta_knight',
-  'susie',
-  'marx',
-  
-  'sans',
-  --'genocides',
-  'paradoxical_joker',
-  --'forager',
-  --'pikumiku',
-
-  'writh_wrath',
-  --'built_like_a_brick',
-  --'parity_swap',
-  --'ew_xchips',
-  --'crazy_eights',
-
-  'honest_joker', --FT 1
-  'fluffy_joker',
-  --'insane_joker',
-  'lesbian_joker',
-  'misaligned_joker',
-  'stormcloud', -- not the official placement but it's about right
-
-  'edward_robinson', -- was not on here anywhere so i added it after misaligned like in the docs
-  'ms_small_penny_rolls', -- same story
-  'jimothy',
-  'fridge',
-
-  'loyal_joker', --FT 2
-  'shy_joker',
-  --'rebellious_joker',
-  --'jombo',
-  --'junkyard',
-
-  'the_truth',
-  'the_spacial',
-  --'the_monarchy',
-  --'antijoker',
-  --'jimbo',
-  'truthful_joker', --FT 3
-  'guileful_joker',
-  'deceitful_joker',
-  'thoughtful_joker',
-  'sleightful_joker',
-  'artful_joker',
-
-  --'faithful_joker',
-  'prideful_joker',
-  --'slothful_joker',
-  --'astrolabe',
-  'rise_of_kingdoms',
-  'black_card', --FT 4
-  'extra_bullet', --FT 5
-  'azazel', --FT 6
-  'balatrue', --FT 7
-  'undertale2', --FT 8
-  --'sappy',
-  --'auzzy',
-  --'paper_dragon',
-  'athebyne',
-  'ghost',
-
-  --'apollo_11',
-  --'lock_with_ink_pen',
-  --'plan_z',
-  --'wee_ancient_joker',
-  --'solar_system',
-
-  --'andromeda',
-  --'its_a_seal',
-  --'impostor',
-
-  --'freegels',
-  --'weed',
-  'gay_ass_legendary', --FT 9
-  --'slash_and_die',
-  'badeline', -- FT 10
-  --'joker?',
-  --'heat_death',
-  --'stoned_joker',
-  --'astro_arbiter',
-  'aikoyori',
-  --'aven',
-  'meta',
-  'plus2',
-  --'kirby',
-  --'meowww',
-
-  --'purple_joker',
-  --'true_black_card',
-  --'big_rip',
-  --'ever_higher',
-  --'roaring_knight',
-  
-  --'overclocked_astro',
-  --'overclocked_scrap',
-  --'seraph',
-  --'nxkoo',
-  'frorange'
 }
 
 -- Consumables table
 STAR_UTIL.enabled_consumables = {
-  'wolftopia',
-  'illusioned',
-  --'epitome',
-  'retribution',
-  'eclipse',
-  'conductivity',
-  'gemstone',
-  'starspace',
 }
 
 -- Poker hands table
 STAR_UTIL.enabled_hands = {
-  'flash',
 }
 
--- Challenges table
-STAR_UTIL.enabled_challenges = {
-  'point_deduction_5',
-}
-
--- Editions table
-STAR_UTIL.enabled_editions = {
-  'astral',
-  'otherworldly',
-}
-
--- Seals table
-STAR_UTIL.enabled_seals = {
-  'rose_gold',
-  'bronze',
-  'emerald',
-}
-
--- Stakes table
-STAR_UTIL.enabled_stakes = {
-  'amber',
-  'amethyst',
-}
-
--- Stickers table
-STAR_UTIL.enabled_stickers = {
-  'isolated',
-  'gigantic',
-}
-
--- Patches table
-STAR_UTIL.enabled_patches = {
-  'immortal',
-  'cleansing',
-  'generous',
-  'brave',
-  'efficient',
+-- Modifiers table
+STAR_UTIL.enabled_modifiers = {
 }
 
 -- Quips table
 STAR_UTIL.enabled_quips = {
-  'astro_quips',
-  'scrap_quips',
-  'sage_quips',
 }
 
 -- Vouchers table
 STAR_UTIL.enabled_vouchers = {
-  'shoplift',
-  'heist'
 }
 
 -- custom colors
 STAR_UTIL.colors = {
-  rose_gold = HEX("DA9592"),
-  bronze = HEX("ED8F49"),
-  emerald = HEX("67CF83")
 }
 loc_colour()
 for i, v in pairs(STAR_UTIL.colors) do
@@ -241,45 +58,3 @@ function STAR_UTIL.load_items(names, path)
     assert(SMODS.load_file(path .. '/' .. names[i] .. '.lua'))()
   end
 end
-
--- check if a sticker is a patch
-function STAR_UTIL.is_patch(name)
-  local patches = {}
-  for i, v in pairs(SMODS.Stickers) do
-    if v.patch_sticker then patches[#patches + 1] = i end
-  end
-  for i, v in ipairs(patches) do
-    if name == v then return true end
-  end
-  return false
-end
-
--- Shuffle function
--- taken from TOGA's Stuff
-function STAR_UTIL.Shuffle(t, seed)
-	seed = seed or 'shuffley'
-	local rt = {}
-	for i = 1, #t do
-		rt[#rt+1] = t[i]
-	end
-	pseudoshuffle(rt, pseudoseed(seed))
-	return rt
-end
-
-
--- optional features
-SMODS.current_mod.optional_features = function()
-  return {
-    retrigger_joker = true,
-  }
-end
-
--- debuff stuff
-SMODS.current_mod.set_debuff = function(card)
-  -- never debuff brave cards
-  if card.ability and card.ability.star_brave then
-    return "prevent_debuff"
-  end
-end
-
-
