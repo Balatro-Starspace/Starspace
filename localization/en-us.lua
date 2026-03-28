@@ -10,6 +10,15 @@ return {
           "{C:inactive}(Currently {X:chips,C:white}X#2#{C:inactive} Chips)"
         }
       },
+      j_star_scrap = {
+        name = "Scrap",
+        text = {
+          "Gains {X:mult,C:white}X#1#{} Mult when a",
+          "{C:hearts}Heart{} card is scored if played",
+          "hand does not contain a {C:spades}Spade{}",
+          "{C:inactive}(Currently {X:mult,C:white}X#2#{C:inactive} Mult)"
+        }
+      },
     },
     Other = {
     },
