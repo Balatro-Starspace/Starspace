@@ -8,6 +8,7 @@ STAR_UTIL.enabled_consumables = {
 
 -- Poker hands table
 STAR_UTIL.enabled_hands = {
+  "flash"
 }
 
 -- Modifiers table
