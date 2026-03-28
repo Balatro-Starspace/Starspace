@@ -27,7 +27,7 @@ SMODS.Joker {
   calculate = function(self, card, context)
     -- check if any hearts are in the played hand
     if context.before and not context.blueprint then
-      for _, v in ipairs(context.scoring_hand) do
+      for _, v in ipairs(context.full_hand) do
         if v:is_suit('Hearts') then
           card.ability.extra.scale_this_hand = false
           break
