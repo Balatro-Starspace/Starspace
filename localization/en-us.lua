@@ -1,6 +1,15 @@
 return {
   descriptions = {
     Joker = {
+      j_star_astro = {
+        name = "Astro",
+        text = {
+          "Gains {X:chips,C:white}X#1#{} Chips when a",
+          "{C:spades}Spade{} card is scored if played",
+          "hand does not contain a {C:hearts}Heart{}",
+          "{C:inactive}(Currently {X:chips,C:white}X#2#{C:inactive} Chips)"
+        }
+      },
     },
     Other = {
     },
