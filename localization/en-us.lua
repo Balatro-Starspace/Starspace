@@ -10,6 +10,15 @@ return {
           "{C:inactive}(Currently {X:chips,C:white}X#2#{C:inactive} Chips)"
         }
       },
+      j_star_glorp = {
+        name = "Glorp",
+        text = {
+          "{X:mult,C:white}X#1#{} Mult during",
+          "{C:attention}context.#2#{}",
+          "Context changes at",
+          "{C:attention}end of round{}"
+        }
+      },
       j_star_scrap = {
         name = "Scrap",
         text = {
