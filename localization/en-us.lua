@@ -49,10 +49,19 @@ return {
   },
   misc = {
     dictionary = {
+      -- Rarities
+      k_star_cosmic = "Cosmic",
+      k_star_galactic = "Galactic",
+
+      -- Credits
       star_ui_squad = "Core Team",
       star_ui_artists = "Artists",
       star_ui_coders = "Coders",
       star_ui_shaders = "Shaders",
+    },
+    labels = {
+      k_star_cosmic = "Cosmic",
+      k_star_galactic = "Galactic",
     },
     poker_hands = {
       star_flash = "Flash",
