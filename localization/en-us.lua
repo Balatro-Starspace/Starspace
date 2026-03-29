@@ -28,6 +28,20 @@ return {
           "{C:inactive}(Currently {X:mult,C:white}X#2#{C:inactive} Mult)"
         }
       },
+      j_star_crystal = {
+        name = "Crystal",
+        text = {
+          "Copies the ability of",
+          "{C:attention}Jokers{} to the left and right"
+        }
+      },
+      j_star_shard = {
+        name = "Shard",
+        text = {
+          "Copies the ability of the",
+          "leftmost and rightmost {C:attention}Jokers{}"
+        }
+      },
       j_star_samson = {
         name = "Samson",
         text = {

@@ -4,6 +4,9 @@ STAR_UTIL.enabled_jokers = {
   "scrap",
   "glorp",
 
+  "crystal",
+  "shard",
+
   "samson",
   "isotypical"
 }
