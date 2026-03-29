@@ -38,8 +38,8 @@ return {
       j_star_isotypical = {
         name = "Isotypical",
         text = {
-          "isotypical here, im gonna explode",
-          "if this joker breaks BADLY"
+          "Hand calculation is set to",
+          "{X:dark_edition,C:white,s:1.2}Chips^log10(Mult^0.75){}"
         }
       }
     },
