@@ -28,6 +28,20 @@ return {
           "{C:inactive}(Currently {X:mult,C:white}X#2#{C:inactive} Mult)"
         }
       },
+      j_star_samson = {
+        name = "Samson",
+        text = {
+          "{C:attention}Retriggers{} all played or",
+          "held in hand {C:attention}Gold Cards{}"
+        }
+      },
+      j_star_isotypical = {
+        name = "Isotypical",
+        text = {
+          "isotypical here, im gonna explode",
+          "if this joker breaks BADLY"
+        }
+      }
     },
     Other = {
     },
