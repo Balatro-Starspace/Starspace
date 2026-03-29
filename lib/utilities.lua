@@ -3,6 +3,9 @@ STAR_UTIL.enabled_jokers = {
   "astro",
   "scrap",
   "glorp",
+
+  "samson",
+  "isotypical"
 }
 
 -- Consumables table
