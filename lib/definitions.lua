@@ -5,6 +5,19 @@ SMODS.ObjectType {
   cards = {}
 }
 
+-- Rarities
+SMODS.Rarity {
+  key = "cosmic",
+  badge_colour = HEX("ED3BAF"),
+  default_weight = 0.025
+}
+
+SMODS.Rarity {
+  key = "galactic",
+  badge_colour = HEX("00E4FF"),
+  default_weight = 0
+}
+
 -- credits defined here
 STAR_UTIL.credits = {
   squad = {
