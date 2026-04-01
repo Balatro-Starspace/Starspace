@@ -27,11 +27,12 @@ SMODS.Rank {
 
 local set_base_ref = Card.set_base
 Card.set_base = function(self, card, initial, manual_sprites)
-  if self.base and self.base.value == "star_star" then local old_star = true end
+  local old_star = false
+  if self.base and self.base.value == "star_star" then old_star = true end
   set_base_ref(self, card, initial, manual_sprites)
-  if self.base.value == "star_star" then
+  if self.base.value == "star_star" and not old_star then
     self.ability.perma_p_dollars = self.ability.perma_p_dollars + 2
-  elseif old_star then
+  elseif old_star and self.base.value ~= "star_star" then
     self.ability.perma_p_dollars = self.ability.perma_p_dollars - 2
   end
 end
