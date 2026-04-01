@@ -13,7 +13,9 @@ SMODS.Rank {
 
   in_pool = function(self, args)
     if args and args.initial_deck then
-      return false
+      if G.GAME.selected_back then
+        return G.GAME.selected_back.effect.config.star_rank
+      end
     else
       for i, v in pairs(G.playing_cards or {}) do
         if v:get_id() == self.id then return true end

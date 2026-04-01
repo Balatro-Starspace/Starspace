@@ -15,6 +15,11 @@ STAR_UTIL.enabled_jokers = {
 STAR_UTIL.enabled_consumables = {
 }
 
+-- Decks table
+STAR_UTIL.enabled_decks = {
+  "starstruck",
+}
+
 -- Poker hands table
 STAR_UTIL.enabled_hands = {
   "flash"

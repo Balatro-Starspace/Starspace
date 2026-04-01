@@ -28,6 +28,7 @@ SMODS.Atlas {
 
 STAR_UTIL.load_items(STAR_UTIL.enabled_jokers, 'content/jokers')
 STAR_UTIL.load_items(STAR_UTIL.enabled_consumables, 'content/consumables')
+STAR_UTIL.load_items(STAR_UTIL.enabled_decks, 'content/decks')
 STAR_UTIL.load_items(STAR_UTIL.enabled_hands, 'content/pokerhands')
 STAR_UTIL.load_items(STAR_UTIL.enabled_modifiers, 'content/modifiers')
 STAR_UTIL.load_items(STAR_UTIL.enabled_quips, 'content/quips')
