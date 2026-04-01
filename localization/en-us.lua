@@ -1,5 +1,15 @@
 return {
   descriptions = {
+    Back = {
+      b_star_starstruck = {
+        name = "Starstruck Deck",
+        text = {
+          "Start run with",
+          "one {C:attention}Star{} Card",
+          "of each suit in deck"
+        }
+      }
+    },
     Joker = {
       j_star_astro = {
         name = "Astro",
