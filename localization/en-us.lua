@@ -101,6 +101,9 @@ return {
       }
     },
     quips = {
+    },
+    ranks = {
+      star_star = "Star"
     }
   }
 }

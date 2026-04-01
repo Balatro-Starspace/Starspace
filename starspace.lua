@@ -19,6 +19,13 @@ SMODS.Atlas {
   px = 71, py = 95
 }
 
+-- rank atlas
+SMODS.Atlas {
+  key = "ranks_lc",
+  path = "ranks_lc.png",
+  px = 71, py = 95
+}
+
 STAR_UTIL.load_items(STAR_UTIL.enabled_jokers, 'content/jokers')
 STAR_UTIL.load_items(STAR_UTIL.enabled_consumables, 'content/consumables')
 STAR_UTIL.load_items(STAR_UTIL.enabled_hands, 'content/pokerhands')

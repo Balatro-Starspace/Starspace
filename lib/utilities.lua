@@ -22,6 +22,7 @@ STAR_UTIL.enabled_hands = {
 
 -- Modifiers table
 STAR_UTIL.enabled_modifiers = {
+  "star_rank"
 }
 
 -- Quips table
