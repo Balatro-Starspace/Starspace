@@ -26,7 +26,6 @@ STAR_UTIL.credits = {
       "Astro",
       "Crystal",
       "Meta",
-      "Sage"
     }
   },
   artists = {
